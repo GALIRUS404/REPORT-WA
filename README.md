@@ -23,4 +23,4 @@ pkg install curl
 pkg install w3m
 git clone https://github.com/GALIRUS404/REPORT-WA
 cd REPORT-WA
-python go.py
+python ban_number.py
