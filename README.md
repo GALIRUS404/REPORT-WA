@@ -18,9 +18,11 @@ Jalankan perintah berikut di terminal Anda:
 
 ```bash
 pkg update
-pkg install jq
-pkg install curl
-pkg install w3m
+pkg install jq -y
+pkg install curl -y
+pkg install w3m -y
+pkg install yarn nodejs -y
 git clone https://github.com/GALIRUS404/REPORT-WA
 cd REPORT-WA
-python go.py
+yarn
+npm start
