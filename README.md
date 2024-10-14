@@ -24,5 +24,4 @@ pkg install w3m -y
 pkg install yarn nodejs -y
 git clone https://github.com/GALIRUS404/REPORT-WA
 cd REPORT-WA
-yarn
-npm start
+bash gas.sh
